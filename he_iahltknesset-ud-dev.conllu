@@ -32,7 +32,7 @@
 # speaker = יגאל ביבי
 # turnnumber = 100
 # text = לא שר הפנים יכול להדיח אותו, לא המועצה יכולה להדיח אותו, שום גורם.
-1	לא	לא	ADV	ADV	_	2	advmod	_	_
+1	לא	לא	ADV	ADV	Polarity=Neg	2	advmod	_	_
 2	שר	שר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	nsubj	_	Entity=(TTL)
 3-4	הפנים	_	_	_	_	_	_	_	_
 3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	Entity=(ORG
@@ -43,7 +43,7 @@
 7	אות	את	ADP	ADP	Case=Acc	8	case	_	_
 8	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
 9	,	,	PUNCT	PUNCT	_	14	punct	_	_
-10	לא	לא	ADV	ADV	_	12	advmod	_	_
+10	לא	לא	ADV	ADV	Polarity=Neg	12	advmod	_	_
 11-12	המועצה	_	_	_	_	_	_	_	_
 11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
 12	מועצה	מועצה	NOUN	NOUN	Gender=Fem|Number=Sing	14	nsubj	_	_
@@ -132,7 +132,7 @@
 11	,	,	PUNCT	PUNCT	_	16	punct	_	_
 12-13	וכל	_	_	_	_	_	_	_	_
 12	ו	ו	CCONJ	CCONJ	_	16	cc	_	_
-13	כל	כול	DET	DET	Definite=Cons	14	det	_	_
+13	כל	כול	DET	DET	Definite=Cons|PronType=Tot	14	det	_	_
 14	עם	עם	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	16	nsubj	_	_
 15	ישראל	ישראל	PROPN	PROPN	_	14	compound	_	Entity=(GPE)
 16	קורא	קרא	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Act	2	conj	_	_
@@ -522,11 +522,11 @@
 4	שום	שום	DET	DET	Definite=Cons	5	det	_	_
 5	סכנה	סכנה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No
 6	,	,	PUNCT	PUNCT	_	8	punct	_	_
-7	לא	לא	ADV	ADV	_	8	advmod	_	_
+7	לא	לא	ADV	ADV	Polarity=Neg	8	advmod	_	_
 8	מהותית	מהותי	ADJ	ADJ	Gender=Fem|Number=Sing	3	parataxis	_	_
 9-10	ולא	_	_	_	_	_	_	_	_
 9	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
-10	לא	לא	ADV	ADV	_	11	advmod	_	_
+10	לא	לא	ADV	ADV	Polarity=Neg	11	advmod	_	_
 11	קיומית	קיומי	ADJ	ADJ	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
@@ -629,7 +629,7 @@
 35	תגיד	הגיד	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=2|Tense=Fut|Voice=Act	27	parataxis	_	_
 36-37	לאף	_	_	_	_	_	_	_	_
 36	ל	ל	ADP	ADP	_	38	case	_	_
-37	אף	אף	DET	DET	Definite=Cons	38	det	_	_
+37	אף	אף	DET	DET	Definite=Cons|PronType=Neg	38	det	_	_
 38	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	35	obl	_	SpaceAfter=No
 39	,	,	PUNCT	PUNCT	_	41	punct	_	_
 40	אל	אל	ADV	ADV	_	41	advmod	_	_
@@ -678,7 +678,7 @@
 2-3	האירוע	_	_	_	_	_	_	_	_
 2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
 3	אירוע	אירוע	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
-4	לא	לא	ADV	ADV	_	5	advmod	_	_
+4	לא	לא	ADV	ADV	Polarity=Neg	5	advmod	_	_
 5	דווח	דווח	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
 6-7	בתקשורת	_	_	_	_	_	_	_	SpaceAfter=No
 6	ב	ב	ADP	ADP	Definite=Def|PronType=Art	7	case	_	_
@@ -793,7 +793,7 @@
 # speaker = יוסף ונונו
 # turnnumber = 28
 # text = כל מה שהשגתי ופעלתי בחיי, אם בבית-הספר, באוניברסיטה, בשטח המקצועי, בשטח האקדמי, אם כראש עיר, אם כחבר כנסת – עשיתי זאת בעמל כפי ובשתי ידי השגתי זאת.
-1	כל	כול	DET	DET	Definite=Cons	2	det	_	_
+1	כל	כול	DET	DET	Definite=Cons|PronType=Tot	2	det	_	_
 2	מה	מה	PRON	PRON	PronType=Rel	41	dislocated	_	_
 3-4	שהשגתי	_	_	_	_	_	_	_	_
 3	ש	ש	SCONJ	SCONJ	_	4	mark	_	_
@@ -925,7 +925,7 @@
 3-4	שמתפללים	_	_	_	_	_	_	_	_
 3	ש	ש	SCONJ	SCONJ	_	4	mark	_	_
 4	מתפללים	התפלל	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Pres|VerbForm=Part|Voice=Mid	1	acl:relcl	_	_
-5	כל	כול	DET	DET	Definite=Cons	6	det	_	_
+5	כל	כול	DET	DET	Definite=Cons|PronType=Tot	6	det	_	_
 6	בוקר	בוקר	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl:tmod	_	SpaceAfter=No
 7	,	,	PUNCT	PUNCT	_	1	punct	_	_
 8	אנחנו	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
@@ -960,7 +960,7 @@
 31-33	ובכל	_	_	_	_	_	_	_	_
 31	ו	ו	CCONJ	CCONJ	_	34	cc	_	_
 32	ב	ב	ADP	ADP	_	34	case	_	_
-33	כל	כול	DET	DET	Definite=Cons	34	det	_	_
+33	כל	כול	DET	DET	Definite=Cons|PronType=Tot	34	det	_	_
 34	יום	יום	NOUN	NOUN	Gender=Masc|Number=Sing	30	conj	_	_
 35-36	ויום	_	_	_	_	_	_	_	_
 35	ו	ו	CCONJ	CCONJ	_	36	cc	_	_
@@ -1176,7 +1176,7 @@
 21	גדולות	גדול	ADJ	ADJ	Gender=Fem|Number=Plur	19	amod	_	_
 22	ביותר	ביותר	ADV	ADV	_	21	advmod	_	_
 23	בין	בין	ADP	ADP	_	26	case	_	_
-24	כל	כול	DET	DET	Definite=Cons	26	det	_	_
+24	כל	כול	DET	DET	Definite=Cons|PronType=Tot	26	det	_	_
 25-26	הנבחרים	_	_	_	_	_	_	_	_
 25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
 26	נבחרים	נבחר	NOUN	NOUN	Gender=Masc|Number=Plur	15	obl	_	_
@@ -1341,7 +1341,7 @@
 2	מסכים	הסכים	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
 3-4	לכל	_	_	_	_	_	_	_	_
 3	ל	ל	ADP	ADP	_	5	case	_	_
-4	כל	כול	DET	DET	Definite=Cons	5	det	_	_
+4	כל	כול	DET	DET	Definite=Cons|PronType=Tot	5	det	_	_
 5	דבר	דבר	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl	_	_
 6-7	שנאמר	_	_	_	_	_	_	_	SpaceAfter=No
 6	ש	ש	SCONJ	SCONJ	_	7	mark	_	_
@@ -1501,7 +1501,7 @@
 # speaker = רוני מילוא
 # turnnumber = 124
 # text = אף פעם אל תשתמשו בו אם אתם לא בטוחים שצריך להשתמש בו.
-1	אף	אף	DET	DET	Definite=Cons	2	det	_	_
+1	אף	אף	DET	DET	Definite=Cons|PronType=Neg	2	det	_	_
 2	פעם	פעם	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl:tmod	_	_
 3	אל	אל	ADV	ADV	_	4	advmod	_	_
 4	תשתמשו	השתמש	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Plur|Person=2|Tense=Fut|Voice=Mid	0	root	_	_
@@ -1685,7 +1685,7 @@
 # text = אבל עם כל הכבוד, אם נמצא במקום חבר כנסת, מה בוער?
 1	אבל	אבל	CCONJ	CCONJ	_	15	cc	_	_
 2	עם	עם	ADP	ADP	_	5	case	_	_
-3	כל	כול	DET	DET	Definite=Cons	5	det	_	_
+3	כל	כול	DET	DET	Definite=Cons|PronType=Tot	5	det	_	_
 4-5	הכבוד	_	_	_	_	_	_	_	SpaceAfter=No
 4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
 5	כבוד	כבוד	NOUN	NOUN	Gender=Masc|Number=Sing	15	obl	_	_
@@ -2077,7 +2077,7 @@
 23	צבא	צבא	NOUN	NOUN	Gender=Masc|Number=Sing	20	obl	_	_
 24	,	,	PUNCT	PUNCT	_	28	punct	_	_
 25	אני	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=1|PronType=Prs	28	nsubj	_	_
-26	לא	לא	ADV	ADV	_	28	advmod	_	_
+26	לא	לא	ADV	ADV	Polarity=Neg	28	advmod	_	_
 27	יכול	יכל	AUX	AUX	Gender=Masc|HebBinyan=PAAL|Number=Sing|VerbForm=Part|VerbType=Mod	28	aux	_	_
 28	להעלות	העלה	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	20	parataxis	_	_
 29	על	על	ADP	ADP	_	30	case	_	_
@@ -2372,7 +2372,7 @@
 42	ו	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	40	nmod:poss	_	_
 43-44	בכל	_	_	_	_	_	_	_	_
 43	ב	ב	ADP	ADP	_	45	case	_	_
-44	כל	כול	DET	DET	Definite=Cons	45	det	_	_
+44	כל	כול	DET	DET	Definite=Cons|PronType=Tot	45	det	_	_
 45	נושא	נושא	NOUN	NOUN	Gender=Masc|Number=Sing	37	obl	_	_
 46-47	שלא	_	_	_	_	_	_	_	_
 46	ש	ש	SCONJ	SCONJ	_	48	mark	_	_
@@ -2451,7 +2451,7 @@
 16	עד	עד	ADP	ADP	_	21	mark	_	_
 17-18	שכל	_	_	_	_	_	_	_	_
 17	ש	ש	SCONJ	SCONJ	_	16	fixed	_	_
-18	כל	כול	DET	DET	Definite=Cons	19	det	_	_
+18	כל	כול	DET	DET	Definite=Cons|PronType=Tot	19	det	_	_
 19	סיעה	סיעה	NOUN	NOUN	Gender=Fem|Number=Sing	21	nsubj	_	_
 20	תהיה	היה	AUX	AUX	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut	21	cop	_	_
 21	מיוצגת	יוצג	VERB	VERB	Aspect=Prog|Gender=Fem|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Fut|VerbForm=Part|Voice=Pass	12	advcl	_	_
@@ -2965,7 +2965,7 @@
 4	מילים	מילה	NOUN	NOUN	Gender=Fem|Number=Plur	2	compound	_	_
 5	:	:	PUNCT	PUNCT	_	8	punct	_	_
 6	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	nsubj	_	_
-7	לא	לא	ADV	ADV	_	8	advmod	_	_
+7	לא	לא	ADV	ADV	Polarity=Neg	8	advmod	_	_
 8	עובד	עובד	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Act	4	appos	_	_
 9	כך	כך	ADV	ADV	_	8	advmod	_	SpaceAfter=No
 10	?	?	PUNCT	PUNCT	_	1	punct	_	_
@@ -3105,7 +3105,7 @@
 6	להגיע	הגיע	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	1	acl	_	_
 7-8	לכל	_	_	_	_	_	_	_	_
 7	ל	ל	ADP	ADP	_	9	case	_	_
-8	כל	כול	DET	DET	Definite=Cons	9	det	_	_
+8	כל	כול	DET	DET	Definite=Cons|PronType=Tot	9	det	_	_
 9	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
@@ -3342,7 +3342,7 @@
 18	,	,	PUNCT	PUNCT	_	39	punct	_	_
 19-20	מכל	_	_	_	_	_	_	_	_
 19	מ	מ	ADP	ADP	_	21	case	_	_
-20	כל	כול	DET	DET	Definite=Cons	21	det	_	_
+20	כל	כול	DET	DET	Definite=Cons|PronType=Tot	21	det	_	_
 21	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	39	obl	_	_
 22	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	39	dislocated	_	_
 23-24	שבאו	_	_	_	_	_	_	_	_
@@ -3365,7 +3365,7 @@
 36-37	להם	_	_	_	_	_	_	_	_
 36	ל	ל	ADP	ADP	_	37	case	_	_
 37	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	39	obl	_	_
-38	לא	לא	ADV	ADV	_	39	advmod	_	_
+38	לא	לא	ADV	ADV	Polarity=Neg	39	advmod	_	_
 39	היתה	היה	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	2	parataxis	_	_
 40	תעודה	תעודה	NOUN	NOUN	Gender=Fem|Number=Sing	39	nsubj	_	_
 41-42	כזאת	_	_	_	_	_	_	_	SpaceAfter=No
@@ -3564,7 +3564,7 @@
 11	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	10	nummod	_	_
 12-13	ואף	_	_	_	_	_	_	_	_
 12	ו	ו	CCONJ	CCONJ	_	18	cc	_	_
-13	אף	אף	DET	DET	Definite=Cons	14	det	_	_
+13	אף	אף	DET	DET	Definite=Cons|PronType=Neg	14	det	_	_
 14	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing|NumType=Card	18	nsubj	_	_
 15-16	מהם	_	_	_	_	_	_	_	_
 15	מ	מ	ADP	ADP	_	16	case	_	_
@@ -3602,7 +3602,7 @@
 # speaker = רחבעם זאבי
 # turnnumber = 81
 # text = לא אמת.
-1	לא	לא	ADV	ADV	_	2	advmod	_	_
+1	לא	לא	ADV	ADV	Polarity=Neg	2	advmod	_	_
 2	אמת	אמת	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
@@ -3755,7 +3755,7 @@
 36	לא	לא	ADV	ADV	Polarity=Neg	39	advmod	_	_
 37-38	בכל	_	_	_	_	_	_	_	_
 37	ב	ב	ADP	ADP	_	39	case	_	_
-38	כל	כול	DET	DET	Definite=Cons	39	det	_	_
+38	כל	כול	DET	DET	Definite=Cons|PronType=Tot	39	det	_	_
 39	מה	מה	PRON	PRON	PronType=Rel	30	conj	_	_
 40-41	שקשור	_	_	_	_	_	_	_	_
 40	ש	ש	SCONJ	SCONJ	_	41	mark	_	_
@@ -4621,7 +4621,7 @@
 56	אני	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=1|PronType=Prs	60	nsubj	_	_
 57-58	בכל	_	_	_	_	_	_	_	_
 57	ב	ב	ADV	ADV	_	60	advmod	_	_
-58	כל	כול	DET	DET	Definite=Cons	57	fixed	_	_
+58	כל	כול	DET	DET	PronType=Tot	57	fixed	_	_
 59	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	57	fixed	_	_
 60	מבקש	ביקש	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1|Tense=Pres|VerbForm=Part|Voice=Act	28	conj	_	_
 61	להעיר	העיר	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	60	xcomp	_	_
@@ -5451,7 +5451,7 @@
 10	ל	ל	ADP	ADP	_	11	case	_	_
 11	ך	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=2|PronType=Prs	9	obl	_	_
 12	על	על	ADP	ADP	_	14	case	_	_
-13	כל	כול	DET	DET	Definite=Cons	14	det	_	_
+13	כל	כול	DET	DET	Definite=Cons|PronType=Tot	14	det	_	_
 14	מה	מה	PRON	PRON	PronType=Rel	9	obl	_	_
 15-16	שעשית	_	_	_	_	_	_	_	_
 15	ש	ש	SCONJ	SCONJ	_	16	mark	_	_
@@ -6598,7 +6598,7 @@
 30	לעשות	עשה	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	29	csubj	_	SpaceAfter=No
 31	,	,	PUNCT	PUNCT	_	34	punct	_	_
 32	או	או	CCONJ	CCONJ	_	34	cc	_	_
-33	כל	כול	DET	DET	Definite=Cons	34	det	_	_
+33	כל	כול	DET	DET	Definite=Cons|PronType=Tot	34	det	_	_
 34	מה	מה	PRON	PRON	PronType=Rel	27	conj	_	_
 35-36	שצריך	_	_	_	_	_	_	_	SpaceAfter=No
 35	ש	ש	SCONJ	SCONJ	_	36	mark	_	_
@@ -7603,7 +7603,7 @@
 83	אות	את	ADP	ADP	Case=Acc	84	case	_	_
 84	נו	הוא	PRON	PRON	Case=Acc|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	82	obj	_	_
 85-86	אותם	_	_	_	_	_	_	_	_
-85	אות	את	ADP	ADP	Case=Acc|Definite=Def|PronType=Art	86	case	_	_
+85	אות	את	ADP	ADP	Case=Acc	86	case	_	_
 86	ם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	82	obj	_	_
 87	גרם	גרם	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	75	acl:relcl	_	_
 88-89	לנו	_	_	_	_	_	_	_	_
@@ -7807,7 +7807,7 @@
 9-10	למציאות	_	_	_	_	_	_	_	_
 9	ל	ל	ADP	ADP	_	10	case	_	_
 10	מציאות	מציאות	NOUN	NOUN	Gender=Fem|Number=Sing	8	obl	_	_
-11	כל	כול	DET	DET	Definite=Cons	13	advmod	_	_
+11	כל	כול	DET	DET	Definite=Cons|PronType=Tot	13	advmod	_	_
 12	כך	כך	ADV	ADV	_	11	fixed	_	_
 13	פשוטה	פשוט	ADJ	ADJ	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
 14	.	.	PUNCT	PUNCT	_	3	punct	_	_
@@ -8509,7 +8509,7 @@
 12	90	90	NUM	NUM	_	13	nummod	_	_
 13	דקות	דקה	NOUN	NOUN	Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	PUNCT	_	18	punct	_	_
-15	כל	כול	DET	DET	Definite=Cons	16	det	_	_
+15	כל	כול	DET	DET	Definite=Cons|PronType=Tot	16	det	_	_
 16	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	18	nsubj	_	_
 17-18	באזורים	_	_	_	_	_	_	_	_
 17	ב	ב	ADP	ADP	Definite=Def|PronType=Art	18	case	_	_
@@ -8909,7 +8909,7 @@
 9	להגיד	הגיד	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	8	xcomp	_	_
 10	רמאות	רמה	NOUN	NOUN	Gender=Fem|Number=Sing	9	obj	_	_
 11	או	או	CCONJ	CCONJ	_	13	cc	_	_
-12	לא	לא	ADV	ADV	_	13	advmod	_	_
+12	לא	לא	ADV	ADV	Polarity=Neg	13	advmod	_	_
 13	רמאות	רמה	NOUN	NOUN	Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
 14	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
@@ -9438,7 +9438,7 @@
 6	ישנו	יש	VERB	VERB	Gender=Masc|Number=Sing|Person=1|Polarity=Pos|Tense=Past	4	ccomp	_	_
 7	תכלול	תכלול	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	_
 8	של	של	ADP	ADP	Case=Gen	11	case	_	_
-9	כל	כול	DET	DET	Definite=Cons	11	det	_	_
+9	כל	כול	DET	DET	Definite=Cons|PronType=Tot	11	det	_	_
 10-11	הצרכים	_	_	_	_	_	_	_	_
 10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
 11	צרכים	צורך	NOUN	NOUN	Gender=Masc|Number=Plur	7	nmod:poss	_	_
@@ -9768,7 +9768,7 @@
 # speaker = עאידה תומא סלימאן
 # turnnumber = 0
 # text = כל זה לא פותר את מכלול הבעיות שקיימות, והחשש שלנו הוא שלוקחים ממקום אחד ונותנים במקום אחר.
-1	כל	כול	DET	DET	Definite=Cons	2	det	_	_
+1	כל	כול	DET	DET	Definite=Cons|PronType=Tot	2	det	_	_
 2	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	_
 3	לא	לא	ADV	ADV	Polarity=Neg	4	advmod	_	_
 4	פותר	פתר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
