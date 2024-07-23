@@ -2,10 +2,21 @@
 
 Publicly available IAHLT UD Hebrew Treebank's Knesset section (https://www.iahlt.org/)
 
-
 # Introduction
 
 UD_Hebrew-IAHLTknesset is a manually annotated UD Treebank of spoken Hebrew data, with approximately 67K words/2800 sentences taken from transcribed proceedings of the Israeli Parliament, the Knesset. The data contains a subset of sentences from the proceedings originally extracted for modeling factuality, and represent sometimes contiguous chunks of 100 parliament discussions, but not necessarily enitre or fully contiguous ones (see the document identifiers under `# newdoc id` annotations). Where possible, consecutive sentences are given in their original orders, but with possible gaps in the dialogue. Speaker names are provided as well.
+
+## Compatible datasets
+
+The HTB version used in the project was initially converted automatically, then a subset of the converted data was manually validated and adopted as a gold standard for training the model for UD parsing used in Hebrew-IAHLT. The entire parsed data has been manually edited to correct parsing errors, and was automatically QA'ed to apply corrections following updates in the schema. For a fork of UD_Hebrew-HTB (Ha'aretz newswire data) using the same annotation scheme, see:
+
+https://github.com/IAHLT/UD_Hebrew
+
+For an additional UD_Hebrew corpus with the same annotation scheme (Wikipedia articles), see:
+
+https://github.com/UniversalDependencies/UD_Hebrew-IAHLTwiki
+
+## NER annotations
 
 The data additionally contains Named Entity annotations in the IAHLT scheme in the MISC annotation `Entity=`, illustrated in the following excerpt:
 
@@ -100,6 +111,9 @@ Goldin, Gili, Nick Howell, Noam Ordan, Ella Rabinovich, and Shuly Wintner (2024)
 
 
 # Changelog
+
+* 2024-11-15 v2.15
+  * FEATS consistency changes with other Hebrew treebanks
 
 * 2024-11-15 v2.15
   * Initial release in Universal Dependencies.
