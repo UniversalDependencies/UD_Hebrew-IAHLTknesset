@@ -926,7 +926,7 @@
 3	ש	ש	SCONJ	SCONJ	_	4	mark	_	_
 4	מתפללים	התפלל	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Pres|VerbForm=Part|Voice=Mid	1	acl:relcl	_	_
 5	כל	כול	DET	DET	Definite=Cons|PronType=Tot	6	det	_	_
-6	בוקר	בוקר	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl:tmod	_	SpaceAfter=No
+6	בוקר	בוקר	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl:unmarked	_	SpaceAfter=No|TemporalNPAdjunct=Yes
 7	,	,	PUNCT	PUNCT	_	1	punct	_	_
 8	אנחנו	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
 9	גם	גם	ADV	ADV	_	10	advmod	_	_
@@ -1502,7 +1502,7 @@
 # turnnumber = 124
 # text = אף פעם אל תשתמשו בו אם אתם לא בטוחים שצריך להשתמש בו.
 1	אף	אף	DET	DET	Definite=Cons|PronType=Neg	2	det	_	_
-2	פעם	פעם	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl:tmod	_	_
+2	פעם	פעם	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl:unmarked	_	TemporalNPAdjunct=Yes
 3	אל	אל	ADV	ADV	_	4	advmod	_	_
 4	תשתמשו	השתמש	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Plur|Person=2|Tense=Fut|Voice=Mid	0	root	_	_
 5-6	בו	_	_	_	_	_	_	_	_
@@ -1617,7 +1617,7 @@
 70	,	,	PUNCT	PUNCT	_	72	punct	_	_
 71	יהיו	היה	AUX	AUX	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Fut	72	cop	_	_
 72	זהירים	זהיר	ADJ	ADJ	Gender=Masc|Number=Plur	51	advcl	_	_
-73	משנה	משנה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	72	obl:npmod	_	_
+73	משנה	משנה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	72	obl:unmarked	_	_
 74	זהירות	זהירות	NOUN	NOUN	Gender=Fem|Number=Sing	73	compound	_	SpaceAfter=No
 75	,	,	PUNCT	PUNCT	_	77	punct	_	_
 76-77	בשימוש	_	_	_	_	_	_	_	_
@@ -2210,7 +2210,7 @@
 15	מ	מ	ADP	ADP	_	17	case	_	_
 16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
 17	ארועים	אירוע	NOUN	NOUN	Gender=Masc|Number=Plur	14	obl	_	_
-18	עצמם	עצמו	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Emp|Reflex=Yes	17	nmod:npmod	_	SpaceAfter=No
+18	עצמם	עצמו	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Emp|Reflex=Yes	17	nmod:unmarked	_	SpaceAfter=No
 19	,	,	PUNCT	PUNCT	_	22	punct	_	_
 20	כדי	כדי	ADP	ADP	_	22	mark	_	_
 21-22	שנבהיר	_	_	_	_	_	_	_	_
@@ -2350,7 +2350,7 @@
 24	לא	לא	ADV	ADV	Polarity=Neg	25	advmod	_	_
 25	יקרה	קרה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	15	advcl	_	_
 26	עוד	עוד	DET	DET	_	27	det	_	_
-27	פעם	פעם	NOUN	NOUN	Gender=Fem|Number=Sing	25	obl:tmod	_	_
+27	פעם	פעם	NOUN	NOUN	Gender=Fem|Number=Sing	25	obl:unmarked	_	TemporalNPAdjunct=Yes
 28	מקרה	מקרה	NOUN	NOUN	Gender=Masc|Number=Sing	25	nsubj	_	_
 29-30	כזה	_	_	_	_	_	_	_	_
 29	כ	כ	ADP	ADP	Definite=Def|PronType=Art	30	case	_	_
@@ -2780,7 +2780,7 @@
 4	נשמע	שמע	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1|Tense=Fut|Voice=Act	2	ccomp	_	_
 5-6	האחד	_	_	_	_	_	_	_	_
 5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
-6	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing|NumType=Card	4	obl:npmod	_	_
+6	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing|NumType=Card	4	obl:unmarked	_	_
 7	את	את	ADP	ADP	_	9	case	_	_
 8-9	השני	_	_	_	_	_	_	_	_
 8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
@@ -5077,7 +5077,7 @@
 21	,	,	PUNCT	PUNCT	_	22	punct	_	_
 22	מהותיות	מהותי	ADJ	ADJ	Gender=Fem|Number=Plur	20	conj	_	SpaceAfter=No
 23	,	,	PUNCT	PUNCT	_	24	punct	_	_
-24	רפורמות	רפורמה	NOUN	NOUN	Gender=Fem|Number=Plur	16	obl:npmod	_	_
+24	רפורמות	רפורמה	NOUN	NOUN	Gender=Fem|Number=Plur	16	obl:unmarked	_	_
 25	מקיפות	מקיף	ADJ	ADJ	Gender=Fem|Number=Plur	24	amod	_	_
 26-27	וחשובות	_	_	_	_	_	_	_	SpaceAfter=No
 26	ו	ו	CCONJ	CCONJ	_	27	cc	_	_
@@ -6056,7 +6056,7 @@
 10	אמרה	אמר	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	6	conj	_	_
 11	,	,	PUNCT	PUNCT	_	13	punct	_	_
 12	עוד	עוד	DET	DET	_	13	det	_	_
-13	פעם	פעם	NOUN	NOUN	Gender=Fem|Number=Sing	10	obl:tmod	_	_
+13	פעם	פעם	NOUN	NOUN	Gender=Fem|Number=Sing	10	obl:unmarked	_	TemporalNPAdjunct=Yes
 14-15	במבטא	_	_	_	_	_	_	_	_
 14	ב	ב	ADP	ADP	Definite=Def|PronType=Art	15	case	_	_
 15	מבטא	מבטא	NOUN	NOUN	Gender=Masc|Number=Sing	10	obl	_	_
@@ -6081,7 +6081,7 @@
 31	כל	כול	DET	DET	Definite=Cons|PronType=Tot	33	det	_	_
 32-33	החיים	_	_	_	_	_	_	_	_
 32	ה	ה	DET	DET	Definite=Def|PronType=Art	33	det	_	_
-33	חיים	חיים	NOUN	NOUN	Gender=Masc|Number=Plur	34	obl:tmod	_	_
+33	חיים	חיים	NOUN	NOUN	Gender=Masc|Number=Plur	34	obl:unmarked	_	TemporalNPAdjunct=Yes
 34	תהיו	היה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1|Tense=Fut|Voice=Act	28	ccomp	_	_
 35	פראיירים	פראייר	ADJ	ADJ	Gender=Masc|Number=Plur	34	obj	_	SpaceAfter=No
 36	.	.	PUNCT	PUNCT	_	6	punct	_	_
@@ -8457,7 +8457,7 @@
 18-19	ביולי	_	_	_	_	_	_	_	_
 18	ב	ב	ADP	ADP	_	19	case	_	_
 19	יולי	יולי	PROPN	PROPN	_	17	obl	_	Entity=(TIMEX
-20	2011	2011	NUM	NUM	_	19	nmod:tmod	_	Entity=TIMEX)
+20	2011	2011	NUM	NUM	_	19	nmod:unmarked	_	Entity=TIMEX)|TemporalNPAdjunct=Yes
 21	הייתה	היה	AUX	AUX	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past	22	cop	_	_
 22	רפורמה	רפורמה	NOUN	NOUN	Gender=Fem|Number=Sing	10	appos	_	_
 23-24	במטרופולין	_	_	_	_	_	_	_	_
@@ -8673,7 +8673,7 @@
 1	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	_
 2	מתחיל	התחיל	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
 3	להיראות	נראה	VERB	VERB	HebBinyan=NIFAL|VerbForm=Inf|Voice=Pass	2	xcomp	_	_
-4	שיטה	שיטה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl:npmod	_	_
+4	שיטה	שיטה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl:unmarked	_	_
 5-6	כזו	_	_	_	_	_	_	_	SpaceAfter=No
 5	כ	כ	ADP	ADP	Definite=Def|PronType=Art	6	case	_	_
 6	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	4	nmod	_	_
@@ -9077,7 +9077,7 @@
 24-25	וכמה	_	_	_	_	_	_	_	_
 24	ו	ו	CCONJ	CCONJ	_	25	cc	_	_
 25	כמה	כמה	DET	DET	Definite=Cons	23	conj	_	_
-26	שנים	שנה	NOUN	NOUN	Gender=Fem|Number=Plur	13	obl:tmod	_	SpaceAfter=No
+26	שנים	שנה	NOUN	NOUN	Gender=Fem|Number=Plur	13	obl:unmarked	_	SpaceAfter=No|TemporalNPAdjunct=Yes
 27	,	,	PUNCT	PUNCT	_	13	punct	_	_
 28	פעיל	פעיל	ADJ	ADJ	Gender=Masc|Number=Sing	13	conj	_	_
 29	מאוד	מאוד	ADV	ADV	_	28	advmod	_	_
@@ -9196,7 +9196,7 @@
 17	,	,	PUNCT	PUNCT	_	16	punct	_	_
 18-19	בשנת	_	_	_	_	_	_	_	_
 18	ב	ב	ADP	ADP	_	19	case	_	_
-19	שנת	שנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	34	obl:tmod	_	Entity=(TIMEX
+19	שנת	שנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	34	obl:unmarked	_	Entity=(TIMEX|TemporalNPAdjunct=Yes
 20	2016	2016	NUM	NUM	_	19	compound	_	Entity=TIMEX)
 21-22	ומ	_	_	_	_	_	_	_	SpaceAfter=No
 21	ו	ו	CCONJ	CCONJ	_	24	cc	_	_

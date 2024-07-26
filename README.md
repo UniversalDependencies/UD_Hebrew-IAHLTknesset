@@ -114,6 +114,7 @@ Goldin, Gili, Nick Howell, Noam Ordan, Ella Rabinovich, and Shuly Wintner (2024)
 
 * 2024-11-15 v2.15
   * FEATS consistency changes with other Hebrew treebanks
+  * Changed :tmod and :npmod subtypes to :unmarked with TemporalNPAdjunct=Yes in misc to preserve tmod info
 
 * 2024-11-15 v2.15
   * Initial release in Universal Dependencies.
