@@ -133,7 +133,7 @@ UPOS: manual native
 XPOS: not available
 Features: manual native
 Relations: manual native
-Contributors: Zeldes, Amir; Algom, Avner; Ordan, Noam; Ben Moshe, Yifat; Howell, Nick; Wigderson, Shira; Strass, Omer; Landau, Israel; Dahan, Netanel; Minerbi, Yael; Merhav, Hilla; Kowner, Emmanuelle; Wintner, Shuly; Goldin, Gili; Rabinovhich, Ella; Gurevich, Vladimir
+Contributors: Zeldes, Amir; Algom, Avner; Ordan, Noam; Ben Moshe, Yifat; Howell, Nick; Wigderson, Shira; Strass, Omer; Landau, Israel; Dahan, Netanel; Minerbi, Yael; Merhav, Hilla; Kowner, Emmanuelle; Wintner, Shuly; Goldin, Gili; Rabinovich, Ella; Gurevich, Vladimir
 Contributing: here
 Contact: amir.zeldes@georgetown.edu
 ===============================================================================
