@@ -127,6 +127,7 @@ Goldin, Gili, Nick Howell, Noam Ordan, Ella Rabinovich, and Shuly Wintner (2024)
 Data available since: UD v2.15
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: government spoken
 Lemmas: manual native
 UPOS: manual native
