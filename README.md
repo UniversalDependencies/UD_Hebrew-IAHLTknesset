@@ -112,6 +112,9 @@ Goldin, Gili, Nick Howell, Noam Ordan, Ella Rabinovich, and Shuly Wintner (2024)
 
 # Changelog
 
+* 2025-11-15 v.217
+  * Added ExtPos and corrections
+
 * 2024-11-15 v2.15
   * FEATS consistency changes with other Hebrew treebanks
   * Changed :tmod and :npmod subtypes to :unmarked with TemporalNPAdjunct=Yes in misc to preserve tmod info
