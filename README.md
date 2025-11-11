@@ -112,6 +112,9 @@ Goldin, Gili, Nick Howell, Noam Ordan, Ella Rabinovich, and Shuly Wintner (2024)
 
 # Changelog
 
+* 2025-11-15 v.217
+  * Added ExtPos and corrections
+
 * 2024-11-15 v2.15
   * FEATS consistency changes with other Hebrew treebanks
   * Changed :tmod and :npmod subtypes to :unmarked with TemporalNPAdjunct=Yes in misc to preserve tmod info
@@ -127,6 +130,7 @@ Goldin, Gili, Nick Howell, Noam Ordan, Ella Rabinovich, and Shuly Wintner (2024)
 Data available since: UD v2.15
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: government spoken
 Lemmas: manual native
 UPOS: manual native
