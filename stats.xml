@@ -22,28 +22,33 @@
     <tag name="CCONJ">2467</tag><!-- ו, אבל, או, אלא, אך, אף, אילו, למשל, _, אגב -->
     <tag name="DET">6476</tag><!-- ה, כול, כמה, הרבה, שום, עוד, אף, איזה, איזשהו, מיני -->
     <tag name="INTJ">36</tag><!-- תודה, בבקשה, סליחה, אוי, אנא, הלוואי, פשוט, שלום, בהצלחה, ואללה -->
-    <tag name="NOUN">12993</tag><!-- חבר, דבר, ראש, ממשלה, מדינה, חוק, ועדה, יושב, איש, שר -->
+    <tag name="NOUN">12992</tag><!-- חבר, דבר, ראש, ממשלה, מדינה, חוק, ועדה, יושב, איש, שר -->
     <tag name="NUM">695</tag><!-- אחת, שתיים, עשר, אלף, שלוש, ארבע, מיליון, מאה, חצי, שתים -->
     <tag name="PRON">6362</tag><!-- הוא, זה, מה, מי, אותו, כך, עצמו, כולו, כן, איזה -->
     <tag name="PROPN">2345</tag><!-- כנסת, ישראל, משרד, ירושלים, ועדה, מדינה, ברק, קורונה, חוק, אוצר -->
     <tag name="PUNCT">8071</tag><!-- ,, ., -, –, ?, ", :, ;, ', ) -->
-    <tag name="SCONJ">2934</tag><!-- ש, אם, כי, כש, כדי, ה, כאשר, כפי, כאילו, אשר -->
+    <tag name="SCONJ">2935</tag><!-- ש, אם, כי, כש, כדי, ה, כאשר, כפי, כאילו, אשר -->
     <tag name="SYM">40</tag><!-- %, –, -, /, X -->
     <tag name="VERB">7367</tag><!-- יש, אמר, היה, רצה, עשה, ידע, דיבר, אין, אפשר, חשב -->
     <tag name="X">60</tag><!-- אללה, על, הבאב, the, Welcome, to, הא, פר, Life, added -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="57">
+  <feats unique="62">
     <feat name="Abbr" value="Yes" upos="ADJ,NOUN,NUM,PROPN">130</feat><!-- צה"ל, מע"מ, בג"ץ, מנכ"ל, רמטכ"ל, ש"ס, שב"כ, אש"ף, ד"ר, דו"ח -->
     <feat name="Aspect" value="Prog" upos="VERB">26</feat><!-- אומר, מעורב, בוחר, חוזרים, חוסכים, יושב, לעשות, מגיעים, מדובר, מוטל -->
     <feat name="Case" value="Acc" upos="ADP,PRON">1157</feat><!-- את, אות, ן, ני, ה, כם, אית, אתה, נו -->
     <feat name="Case" value="Gen" upos="ADP,PRON">1647</feat><!-- של, י, ו, ה, נו, ם, ך, הם, ן, כם -->
     <feat name="Definite" value="Cons" upos="ADJ,DET,NOUN,NUM,PROPN">3789</feat><!-- כל, חברי, ראש, חבר, מדינת, יושב, משרד, כמה, הרבה, שר -->
     <feat name="Definite" value="Def" upos="ADP,DET,PRON">7861</feat><!-- ה, ב, ל, י, ו, כ, נו, ם, אותם, ך -->
+    <feat name="ExtPos" value="ADP" upos="ADJ,ADP,ADV">176</feat><!-- על, יחד, ב, מעבר, תוך, עד, מחוץ, אחר, בניגוד, מ -->
+    <feat name="ExtPos" value="ADV" upos="ADV,DET,NOUN">82</feat><!-- כל, יותר, קודם, ב, למעלה, סוף, אט, דרך, לא, עוד -->
+    <feat name="ExtPos" value="CCONJ" upos="CCONJ">2</feat><!-- ו -->
+    <feat name="ExtPos" value="DET" upos="PRON">3</feat><!-- איזה -->
+    <feat name="ExtPos" value="SCONJ" upos="ADP,ADV,CCONJ,DET,PRON,SCONJ">183</feat><!-- כפי, כדי, עד, בגלל, כמו, למרות, משום, אחרי, ככל, מכיוון -->
     <feat name="Foreign" value="Yes" upos="X">43</feat><!-- אללה, על, הבאב, הא, פר, Life, blue, of, out, the -->
     <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">8437</feat><!-- ה, זאת, היא, ממשלה, אני, מדינה, זו, וועדה, מדינת, הן -->
     <feat name="Gender" value="Fem,Masc" upos="AUX,NOUN,PRON,VERB">263</feat><!-- אני, י, נו, אנחנו, פני, אלו, אמרתי, באו, קיבלתי, שמעתי -->
-    <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,SYM,VERB">19041</feat><!-- זה, אני, ו, הם, הוא, אנחנו, ראש, י, צריך, חוק -->
+    <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,SYM,VERB">19040</feat><!-- זה, אני, ו, הם, הוא, אנחנו, ראש, י, צריך, חוק -->
     <feat name="HebBinyan" value="HIFIL" upos="VERB">1329</feat><!-- להגיד, להגיע, להביא, להבין, מבין, מבינים, הגיע, מודה, מניח, מסכים -->
     <feat name="HebBinyan" value="HIFIL,HITPAEL" upos="VERB">2</feat><!-- להגזים -->
     <feat name="HebBinyan" value="HIFIL,PIEL" upos="VERB">1</feat><!-- הסכמת -->
@@ -59,7 +64,7 @@
     <feat name="Number" value="Dual" upos="NOUN">25</feat><!-- שנתיים, חודשיים, ביניים, יומיים, שבועיים, פעמיים -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,SYM,VERB">8043</feat><!-- הם, אנחנו, נו, ם, אלה, חברי, דברים, כם, אתם, אנשים -->
     <feat name="Number" value="Plur,Sing" upos="NOUN,SYM">12</feat><!-- %, אוכלוסייה, בהילות, רגל -->
-    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,SYM,VERB">20109</feat><!-- זה, אני, י, ו, הוא, ראש, ה, זאת, היא, ממשלה -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,SYM,VERB">20108</feat><!-- זה, אני, י, ו, הוא, ראש, ה, זאת, היא, ממשלה -->
     <feat name="NumType" value="Card" upos="NUM">174</feat><!-- אחד, שני, אחת, שלוש, שמונה, ארבעה, עשר, שלושה, שתי, אלפי -->
     <feat name="NumType" value="Ord" upos="ADJ">75</feat><!-- שני, ראשון, ראשונה, שלישי, שנייה, 19, 90, עשרים, שלישית, שניה -->
     <feat name="Person" value="1" upos="AUX,PRON,VERB">3473</feat><!-- אני, י, אנחנו, נו, רוצה, חושב, אומר, הייתי, יודע, מבקש -->
@@ -82,7 +87,7 @@
     <feat name="Tense" value="Fut" upos="AUX,VERB">862</feat><!-- יהיה, תהיה, יהיו, נוכל, יקרה, יוכלו, נמשיך, נעשה, אשמח, יבוא -->
     <feat name="Tense" value="Past" upos="AUX,VERB">1816</feat><!-- היה, היו, היתה, הייתה, אמר, הייתי, אמרתי, היינו, שמעתי, הגיע -->
     <feat name="Tense" value="Pres" upos="AUX,VERB">2528</feat><!-- רוצה, אומר, חושב, יודע, רוצים, מדברים, יודעים, נמצאים, מבקש, אומרת -->
-    <feat name="Typo" value="Yes" upos="ADJ,ADP,ADV,DET,NOUN,PRON,PROPN,SCONJ,VERB">34</feat><!-- ה, ייצאו, איזושהי, אימא, אלו, בפנ, ד', הינה, היתה, הם -->
+    <feat name="Typo" value="Yes" upos="ADJ,ADP,ADV,DET,NOUN,PROPN,SCONJ,VERB">19</feat><!-- ייצאו, איזושהי, אימא, אלו, ד', היתה, הם, ועדת, כמן, כשאשר -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">1734</feat><!-- להיות, לעשות, להגיד, לדבר, לומר, לתת, לראות, להגיע, לבוא, להביא -->
     <feat name="VerbForm" value="Part" upos="AUX,VERB">2760</feat><!-- רוצה, יכול, אומר, חושב, יודע, רוצים, מדברים, יודעים, נמצאים, מדובר -->
     <feat name="VerbType" value="Mod" upos="AUX,VERB">563</feat><!-- צריך, אפשר, יכול, צריכים, צריכה, יכולים, חייבים, נוכל, חייב, יוכלו -->
@@ -95,48 +100,48 @@
   <!-- Statistics of universal dependency relations. -->
   <deps unique="44">
     <dep name="acl">221</dep>
-    <dep name="acl:relcl">1407</dep>
+    <dep name="acl:relcl">1403</dep>
     <dep name="advcl">828</dep>
     <dep name="advmod">3857</dep>
-    <dep name="amod">2282</dep>
-    <dep name="appos">551</dep>
+    <dep name="amod">2283</dep>
+    <dep name="appos">554</dep>
     <dep name="aux">399</dep>
     <dep name="case">8887</dep>
     <dep name="cc">2443</dep>
-    <dep name="ccomp">630</dep>
+    <dep name="ccomp">632</dep>
     <dep name="compound">3137</dep>
     <dep name="compound:affix">67</dep>
     <dep name="conj">2979</dep>
-    <dep name="cop">586</dep>
+    <dep name="cop">587</dep>
     <dep name="csubj">291</dep>
     <dep name="csubj:outer">1</dep>
     <dep name="csubj:pass">15</dep>
     <dep name="dep">60</dep>
-    <dep name="det">6970</dep>
+    <dep name="det">6962</dep>
     <dep name="discourse">23</dep>
     <dep name="dislocated">65</dep>
     <dep name="expl">4</dep>
-    <dep name="fixed">501</dep>
+    <dep name="fixed">507</dep>
     <dep name="flat">307</dep>
-    <dep name="iobj">1</dep>
+    <dep name="iobj">7</dep>
     <dep name="list">10</dep>
-    <dep name="mark">2898</dep>
-    <dep name="nmod">1537</dep>
+    <dep name="mark">2895</dep>
+    <dep name="nmod">1538</dep>
     <dep name="nmod:poss">1611</dep>
-    <dep name="nmod:unmarked">41</dep>
+    <dep name="nmod:unmarked">45</dep>
     <dep name="nsubj">4522</dep>
     <dep name="nsubj:outer">74</dep>
-    <dep name="nsubj:pass">175</dep>
+    <dep name="nsubj:pass">177</dep>
     <dep name="nummod">415</dep>
-    <dep name="obj">2037</dep>
+    <dep name="obj">2024</dep>
     <dep name="obl">4424</dep>
-    <dep name="obl:unmarked">170</dep>
+    <dep name="obl:unmarked">171</dep>
     <dep name="orphan">13</dep>
     <dep name="parataxis">687</dep>
     <dep name="punct">8070</dep>
     <dep name="reparandum">13</dep>
     <dep name="root">2883</dep>
     <dep name="vocative">228</dep>
-    <dep name="xcomp">687</dep>
+    <dep name="xcomp">688</dep>
   </deps>
 </treebank>
