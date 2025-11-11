@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Hebrew-IAHLTknesset:
-commit 09de754546f614bc387c332047d797d70c26905f
-Merge: b85d818 61bdfe7
+commit e17f438ec9bb5d7e628acce6738f43bba5f3ab32
+Merge: b12e803 61fb6bc
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'he_iahltknesset'
+Language code (from CoNLL-U file name) = 'he'
+Found the following data files: he_iahltknesset-ud-dev.conllu, he_iahltknesset-ud-test.conllu, he_iahltknesset-ud-train.conllu
 Size: counted 67007 of 67007 words (nodes).
 Size: min(0, log((N/1000)**2)) = 8.409594183091.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -15,87 +19,61 @@ Split: Did not find at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 42394 out of 67007 total words have one or more features.
+Features: 42790 out of 67007 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 35 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi:
-               TOTAL       4036
-Udapi: found 4036 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 67007 words.
 Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang he --max-err=10 UD_Hebrew-IAHLTknesset/he_iahltknesset-ud-dev.conllu
-[Line 174 Sent 13_ptm_532410-4 Node 45]: [L3 Warning fixed-without-extpos] Fixed expression 'כפי ש' does not have the 'ExtPos' feature
-[Line 251 Sent 13_ptm_532410-7 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'ו אילו' does not have the 'ExtPos' feature
-[Line 699 Sent 13_ptm_532410-24 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'על ידי' does not have the 'ExtPos' feature
-[Line 1034 Sent 13_ptm_532410-32 Node 24]: [L3 Warning fixed-without-extpos] Fixed expression 'כפי ש' does not have the 'ExtPos' feature
-[Line 1593 Sent 15_ptv_490855-4 Node 52]: [L3 Warning fixed-without-extpos] Fixed expression 'כדי ש' does not have the 'ExtPos' feature
-[Line 2103 Sent 15_ptv_490855-17 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'כפי ש' does not have the 'ExtPos' feature
-[Line 2215 Sent 15_ptv_490855-18 Node 20]: [L3 Warning fixed-without-extpos] Fixed expression 'כדי ש' does not have the 'ExtPos' feature
-[Line 2263 Sent 15_ptv_490855-19 Node 22]: [L3 Warning fixed-without-extpos] Fixed expression 'כיוון ש' does not have the 'ExtPos' feature
-[Line 2272 Sent 15_ptv_490855-19 Node 29]: [L3 Warning fixed-without-extpos] Fixed expression 'על ידי' does not have the 'ExtPos' feature
-[Line 2288 Sent 15_ptv_490855-19 Node 43]: [L3 Warning fixed-without-extpos] Fixed expression 'כדי ש' does not have the 'ExtPos' feature
+[Line 56 Sent 13_ptm_532410-2]: [L3 Warning pron-det-without-prontype] The word 'שום' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 522 Sent 13_ptm_532410-17]: [L3 Warning pron-det-without-prontype] The word 'שום' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1009 Sent 13_ptm_532410-32]: [L3 Warning pron-det-without-prontype] The word 'שום' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1027 Sent 13_ptm_532410-32]: [L3 Warning pron-det-without-prontype] The word 'שום' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1031 Sent 13_ptm_532410-32]: [L3 Warning pron-det-without-prontype] The word 'שום' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1080 Sent 13_ptm_532410-34]: [L3 Warning pron-det-without-prontype] The word 'עוד' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1364 Sent 15_ptv_490826-6]: [L3 Warning pron-det-without-prontype] The word 'עוד' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1494 Sent 15_ptv_490855-2]: [L3 Warning pron-det-without-prontype] The word 'עוד' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1543 Sent 15_ptv_490855-4]: [L3 Warning pron-det-without-prontype] The word 'איזה' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1723 Sent 15_ptv_490855-7]: [L3 Warning pron-det-without-prontype] The word 'שום' is tagged 'DET' but it lacks the 'PronType' feature
 ...suppressing further errors regarding Warning
-[Line 6811 Sent 19_ptm_221681-81 Node 16]: [L3 Syntax leaf-det] 'det' not expected to have children (16:כול:det --> 17:נו:nmod)
-[Line 7384 Sent 19_ptm_221681-92 Node 49]: [L3 Syntax leaf-det] 'det' not expected to have children (49:כול:det --> 50:ו:nmod)
-Syntax errors: 2
-Warnings: 43
-*** FAILED *** with 2 errors
-Exit code: 1
+Warnings: 41
+*** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang he --max-err=10 UD_Hebrew-IAHLTknesset/he_iahltknesset-ud-test.conllu
-[Line 172 Sent 13_ptm_532411-4 Node 44]: [L3 Warning fixed-without-extpos] Fixed expression 'על ידי' does not have the 'ExtPos' feature
-[Line 386 Sent 13_ptm_532411-13 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'מחוץ ל' does not have the 'ExtPos' feature
-[Line 561 Sent 13_ptm_532411-17 Node 38]: [L3 Warning fixed-without-extpos] Fixed expression 'על ידי' does not have the 'ExtPos' feature
-[Line 633 Sent 13_ptm_532411-18 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'מתחת ל' does not have the 'ExtPos' feature
-[Line 1072 Sent 13_ptm_532411-31 Node 19]: [L3 Warning fixed-without-extpos] Fixed expression 'כמו ש' does not have the 'ExtPos' feature
-[Line 1270 Sent 13_ptm_532411-37 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'על ידי' does not have the 'ExtPos' feature
-[Line 1615 Sent 13_ptm_532411-50 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'מחוץ ל' does not have the 'ExtPos' feature
-[Line 2588 Sent 13_ptm_532411-76 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'תוך כדי' does not have the 'ExtPos' feature
-[Line 2605 Sent 13_ptm_532411-76 Node 23]: [L3 Warning fixed-without-extpos] Fixed expression 'יחד עם' does not have the 'ExtPos' feature
-[Line 2711 Sent 13_ptm_532411-79 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'יחד עם' does not have the 'ExtPos' feature
+[Line 366 Sent 13_ptm_532411-12]: [L3 Warning pron-det-without-prontype] The word 'איזה' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 499 Sent 13_ptm_532411-16]: [L3 Warning pron-det-without-prontype] The word 'עוד' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2120 Sent 13_ptm_532411-64]: [L3 Warning pron-det-without-prontype] The word 'שום' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2284 Sent 13_ptm_532411-68]: [L3 Warning pron-det-without-prontype] The word 'איזה' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2296 Sent 13_ptm_532411-68]: [L3 Warning pron-det-without-prontype] The word 'שום' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2309 Sent 13_ptm_532411-68]: [L3 Warning pron-det-without-prontype] The word 'שום' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2325 Sent 13_ptm_532411-68]: [L3 Warning pron-det-without-prontype] The word 'שום' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2340 Sent 13_ptm_532411-68]: [L3 Warning pron-det-without-prontype] The word 'שום' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2421 Sent 13_ptm_532411-71]: [L3 Warning pron-det-without-prontype] The word 'שום' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2562 Sent 13_ptm_532411-75]: [L3 Warning pron-det-without-prontype] The word 'כמה' is tagged 'DET' but it lacks the 'PronType' feature
 ...suppressing further errors regarding Warning
-[Line 6077 Sent 20_ptv_492310-10 Node 25]: [L3 Syntax rel-upos-mark] 'mark' should not be 'PRON' word 'מה'
-[Line 8525 Sent 23_ptv_575285-11 Node 35]: [L3 Syntax leaf-det] 'det' not expected to have children (35:איזה:det --> 37:היא:acl)
-Syntax errors: 2
-Warnings: 45
-*** FAILED *** with 2 errors
-Exit code: 1
+Warnings: 29
+*** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang he --max-err=10 UD_Hebrew-IAHLTknesset/he_iahltknesset-ud-train.conllu
-[Line 132 Sent 13_ptm_532409-4 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'תוך כדי' does not have the 'ExtPos' feature
-[Line 241 Sent 13_ptm_532409-7 Node 23]: [L3 Warning fixed-without-extpos] Fixed expression 'בלי ש' does not have the 'ExtPos' feature
-[Line 266 Sent 13_ptm_532409-8 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'יותר מ' does not have the 'ExtPos' feature
-[Line 1213 Sent 13_ptm_532409-43 Node 20]: [L3 Warning fixed-without-extpos] Fixed expression 'על ידי' does not have the 'ExtPos' feature
-[Line 1417 Sent 13_ptm_532409-49 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'משום ש' does not have the 'ExtPos' feature
-[Line 1477 Sent 13_ptm_532409-50 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'כמו ש' does not have the 'ExtPos' feature
-[Line 1525 Sent 13_ptm_532409-51 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'נוסף על' does not have the 'ExtPos' feature
-[Line 1930 Sent 15_ptm_532742-2 Node 22]: [L3 Warning fixed-without-extpos] Fixed expression 'אם כן' does not have the 'ExtPos' feature
-[Line 2007 Sent 15_ptm_532742-4 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'קודם ל' does not have the 'ExtPos' feature
-[Line 2155 Sent 15_ptm_532742-11 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'יותר מ זה' does not have the 'ExtPos' feature
+[Line 808 Sent 13_ptm_532409-31]: [L3 Warning pron-det-without-prontype] The word 'שום' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 981 Sent 13_ptm_532409-37]: [L3 Warning pron-det-without-prontype] The word 'איזה' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2007 Sent 15_ptm_532742-4]: [L3 Warning fixed-without-extpos] Fixed expression 'קודם ל' does not have the 'ExtPos' feature
+[Line 2282 Sent 15_ptm_532742-15]: [L3 Warning pron-det-without-prontype] The word 'מיני' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2339 Sent 15_ptm_532742-16]: [L3 Warning pron-det-without-prontype] The word 'מיני' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2351 Sent 15_ptm_532742-17]: [L3 Warning pron-det-without-prontype] The word 'מיני' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 3309 Sent 15_ptm_532742-44]: [L3 Warning pron-det-without-prontype] The word 'מדי' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 3652 Sent 15_ptm_532742-56]: [L3 Warning pron-det-without-prontype] The word 'כמה' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 4073 Sent 15_ptm_532742-66]: [L3 Warning pron-det-without-prontype] The word 'איזה' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 4271 Sent 15_ptm_532742-73]: [L3 Warning pron-det-without-prontype] The word 'שום' is tagged 'DET' but it lacks the 'PronType' feature
 ...suppressing further errors regarding Warning
-[Line 3167 Sent 15_ptm_532742-40 Node 5]: [L3 Syntax leaf-det] 'det' not expected to have children (5:כול:det --> 6:ו:nmod)
-[Line 21113 Sent 15_ptv_494232-60 Node 4]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' word 'כמה'
-[Line 23406 Sent 19_ptm_230674-54 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN' word 'דרך'
-[Line 39993 Sent 19_ptv_231384-7 Node 40]: [L3 Syntax rel-upos-case] 'case' should not be 'ADJ' word 'נכון'
-[Line 43534 Sent 19_ptv_245584-42 Node 1]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' word 'כל'
-[Line 43548 Sent 19_ptv_245584-42 Node 13]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' word 'כל'
-[Line 43561 Sent 19_ptv_245584-42 Node 23]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' word 'כל'
-[Line 46936 Sent 19_ptv_264092-10 Node 33]: [L3 Syntax leaf-det] 'det' not expected to have children (33:כול:det --> 34:ו:nmod)
-[Line 52122 Sent 20_ptv_323776-8 Node 9]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' word 'כמה'
-[Line 54186 Sent 21_ptm_546767-6 Node 44]: [L3 Syntax leaf-det] 'det' not expected to have children (44:כול:det --> 45:ה:nmod)
-...suppressing further errors regarding Syntax
-Syntax errors: 18
-Warnings: 379
-*** FAILED *** with 18 errors
-Exit code: 1
-Validity: 0.01
-(weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
-(weight=0.0769230769230769) * (score{genres}=0.111111111111111) = 0.00854700854700855
-(weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
-(weight=0.256410256410256) * (score{size}=0.608706724793684) = 0.156078647382996
-(weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
-(weight=0.0769230769230769) * (score{tags}=0.941176470588235) = 0.0723981900452489
-(weight=0.307692307692308) * (score{udapi}=0.397674869789723) = 0.122361498396838
-(weight=0.0769230769230769) * (score{udeprels}=0.945945945945946) = 0.0727650727650728
-(TOTAL score=0.603432468419216) * (availability=1) * (validity=0.01) = 0.00603432468419216
-STARS = 0
-UD_Hebrew-IAHLTknesset	0.00603432468419216	0
+Warnings: 282
+*** PASSED ***
+Validity: 1
+(weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
+(weight=0.111111111111111) * (score{genres}=0.111111111111111) = 0.0123456790123457
+(weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
+(weight=0.37037037037037) * (score{size}=0.608706724793684) = 0.225446935108772
+(weight=0.0740740740740741) * (score{split}=0.34) = 0.0251851851851852
+(weight=0.111111111111111) * (score{tags}=0.941176470588235) = 0.104575163398693
+(weight=0.111111111111111) * (score{udeprels}=0.945945945945946) = 0.105105105105105
+(TOTAL score=0.694880290032323) * (availability=1) * (validity=1) = 0.694880290032323
+STARS = 3.5
+UD_Hebrew-IAHLTknesset	0.694880290032323	3.5
