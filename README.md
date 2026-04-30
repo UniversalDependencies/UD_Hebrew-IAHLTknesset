@@ -69,18 +69,18 @@ The data additionally contains Named Entity annotations in the IAHLT scheme in t
 ```
 Entity types cover the following categories:
 
-  * ANG - language 
-  * DUC - product 
-  * EVE - event 
-  * FAC - facility 
-  * GPE - geo-political entity 
-  * LOC - location 
-  * ORG - organization 
-  * PER - person 
-  * TIMEX - time expression 
+  * ANG - language
+  * DUC - product
+  * EVE - event
+  * FAC - facility
+  * GPE - geo-political entity
+  * LOC - location
+  * ORG - organization
+  * PER - person
+  * TIMEX - time expression
   * TTL - title
-  * WOA - work of art 
-  * MISC - miscellaneous 
+  * WOA - work of art
+  * MISC - miscellaneous
 
 # Acknowledgments
 
@@ -112,7 +112,10 @@ Goldin, Gili, Nick Howell, Noam Ordan, Ella Rabinovich, and Shuly Wintner (2024)
 
 # Changelog
 
-* 2025-11-15 v.217
+* 2026-04-30 v2.18
+  * Minor corrections
+
+* 2025-11-15 v2.17
   * Added ExtPos and corrections
 
 * 2024-11-15 v2.15
