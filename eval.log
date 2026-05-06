@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Hebrew-IAHLTknesset:
-commit e17f438ec9bb5d7e628acce6738f43bba5f3ab32
-Merge: b12e803 61fb6bc
+commit d3528c56d8f40f0cd047af440bf7912c73064a9b
+Merge: 9419f65 fdd48fe
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'he_iahltknesset'
@@ -25,46 +25,58 @@ Universal relations: 35 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang he --max-err=10 UD_Hebrew-IAHLTknesset/he_iahltknesset-ud-dev.conllu
-[Line 56 Sent 13_ptm_532410-2]: [L3 Warning pron-det-without-prontype] The word 'שום' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 522 Sent 13_ptm_532410-17]: [L3 Warning pron-det-without-prontype] The word 'שום' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 1009 Sent 13_ptm_532410-32]: [L3 Warning pron-det-without-prontype] The word 'שום' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 1027 Sent 13_ptm_532410-32]: [L3 Warning pron-det-without-prontype] The word 'שום' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 1031 Sent 13_ptm_532410-32]: [L3 Warning pron-det-without-prontype] The word 'שום' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 1080 Sent 13_ptm_532410-34]: [L3 Warning pron-det-without-prontype] The word 'עוד' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 1364 Sent 15_ptv_490826-6]: [L3 Warning pron-det-without-prontype] The word 'עוד' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 1494 Sent 15_ptv_490855-2]: [L3 Warning pron-det-without-prontype] The word 'עוד' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 1543 Sent 15_ptv_490855-4]: [L3 Warning pron-det-without-prontype] The word 'איזה' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 1723 Sent 15_ptv_490855-7]: [L3 Warning pron-det-without-prontype] The word 'שום' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-Warnings: 41
+[Line 56 Sent 13_ptm_532410-2]: [L3 WARNING pron-det-without-prontype] The word 'שום' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 522 Sent 13_ptm_532410-17]: [L3 WARNING pron-det-without-prontype] The word 'שום' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1009 Sent 13_ptm_532410-32]: [L3 WARNING pron-det-without-prontype] The word 'שום' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1027 Sent 13_ptm_532410-32]: [L3 WARNING pron-det-without-prontype] The word 'שום' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1031 Sent 13_ptm_532410-32]: [L3 WARNING pron-det-without-prontype] The word 'שום' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1080 Sent 13_ptm_532410-34]: [L3 WARNING pron-det-without-prontype] The word 'עוד' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1364 Sent 15_ptv_490826-6]: [L3 WARNING pron-det-without-prontype] The word 'עוד' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1494 Sent 15_ptv_490855-2]: [L3 WARNING pron-det-without-prontype] The word 'עוד' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1543 Sent 15_ptv_490855-4]: [L3 WARNING pron-det-without-prontype] The word 'איזה' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1723 Sent 15_ptv_490855-7]: [L3 WARNING pron-det-without-prontype] The word 'שום' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 3911 Sent 19_ptm_221681-4]: [L3 WARNING fixed-without-extpos] Fixed expression 'הרבה מאוד' does not have the 'ExtPos' feature
+Warnings: 40
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang he --max-err=10 UD_Hebrew-IAHLTknesset/he_iahltknesset-ud-test.conllu
-[Line 366 Sent 13_ptm_532411-12]: [L3 Warning pron-det-without-prontype] The word 'איזה' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 499 Sent 13_ptm_532411-16]: [L3 Warning pron-det-without-prontype] The word 'עוד' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 2120 Sent 13_ptm_532411-64]: [L3 Warning pron-det-without-prontype] The word 'שום' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 2284 Sent 13_ptm_532411-68]: [L3 Warning pron-det-without-prontype] The word 'איזה' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 2296 Sent 13_ptm_532411-68]: [L3 Warning pron-det-without-prontype] The word 'שום' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 2309 Sent 13_ptm_532411-68]: [L3 Warning pron-det-without-prontype] The word 'שום' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 2325 Sent 13_ptm_532411-68]: [L3 Warning pron-det-without-prontype] The word 'שום' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 2340 Sent 13_ptm_532411-68]: [L3 Warning pron-det-without-prontype] The word 'שום' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 2421 Sent 13_ptm_532411-71]: [L3 Warning pron-det-without-prontype] The word 'שום' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 2562 Sent 13_ptm_532411-75]: [L3 Warning pron-det-without-prontype] The word 'כמה' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-Warnings: 29
+[Line 366 Sent 13_ptm_532411-12]: [L3 WARNING pron-det-without-prontype] The word 'איזה' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 499 Sent 13_ptm_532411-16]: [L3 WARNING pron-det-without-prontype] The word 'עוד' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2120 Sent 13_ptm_532411-64]: [L3 WARNING pron-det-without-prontype] The word 'שום' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2284 Sent 13_ptm_532411-68]: [L3 WARNING pron-det-without-prontype] The word 'איזה' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2296 Sent 13_ptm_532411-68]: [L3 WARNING pron-det-without-prontype] The word 'שום' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2309 Sent 13_ptm_532411-68]: [L3 WARNING pron-det-without-prontype] The word 'שום' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2325 Sent 13_ptm_532411-68]: [L3 WARNING pron-det-without-prontype] The word 'שום' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2340 Sent 13_ptm_532411-68]: [L3 WARNING pron-det-without-prontype] The word 'שום' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2421 Sent 13_ptm_532411-71]: [L3 WARNING pron-det-without-prontype] The word 'שום' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2562 Sent 13_ptm_532411-75]: [L3 WARNING pron-det-without-prontype] The word 'כמה' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+Warnings: 27
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang he --max-err=10 UD_Hebrew-IAHLTknesset/he_iahltknesset-ud-train.conllu
-[Line 808 Sent 13_ptm_532409-31]: [L3 Warning pron-det-without-prontype] The word 'שום' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 981 Sent 13_ptm_532409-37]: [L3 Warning pron-det-without-prontype] The word 'איזה' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 2007 Sent 15_ptm_532742-4]: [L3 Warning fixed-without-extpos] Fixed expression 'קודם ל' does not have the 'ExtPos' feature
-[Line 2282 Sent 15_ptm_532742-15]: [L3 Warning pron-det-without-prontype] The word 'מיני' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 2339 Sent 15_ptm_532742-16]: [L3 Warning pron-det-without-prontype] The word 'מיני' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 2351 Sent 15_ptm_532742-17]: [L3 Warning pron-det-without-prontype] The word 'מיני' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 3309 Sent 15_ptm_532742-44]: [L3 Warning pron-det-without-prontype] The word 'מדי' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 3652 Sent 15_ptm_532742-56]: [L3 Warning pron-det-without-prontype] The word 'כמה' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 4073 Sent 15_ptm_532742-66]: [L3 Warning pron-det-without-prontype] The word 'איזה' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 4271 Sent 15_ptm_532742-73]: [L3 Warning pron-det-without-prontype] The word 'שום' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-Warnings: 282
+[Line 808 Sent 13_ptm_532409-31]: [L3 WARNING pron-det-without-prontype] The word 'שום' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 981 Sent 13_ptm_532409-37]: [L3 WARNING pron-det-without-prontype] The word 'איזה' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2007 Sent 15_ptm_532742-4]: [L3 WARNING fixed-without-extpos] Fixed expression 'קודם ל' does not have the 'ExtPos' feature
+[Line 2282 Sent 15_ptm_532742-15]: [L3 WARNING pron-det-without-prontype] The word 'מיני' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2339 Sent 15_ptm_532742-16]: [L3 WARNING pron-det-without-prontype] The word 'מיני' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2351 Sent 15_ptm_532742-17]: [L3 WARNING pron-det-without-prontype] The word 'מיני' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 3309 Sent 15_ptm_532742-44]: [L3 WARNING pron-det-without-prontype] The word 'מדי' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 3652 Sent 15_ptm_532742-56]: [L3 WARNING pron-det-without-prontype] The word 'כמה' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 4073 Sent 15_ptm_532742-66]: [L3 WARNING pron-det-without-prontype] The word 'איזה' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 4271 Sent 15_ptm_532742-73]: [L3 WARNING pron-det-without-prontype] The word 'שום' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 4530 Sent 15_ptm_532745-4]: [L3 WARNING fixed-without-extpos] Fixed expression 'קודם כול' does not have the 'ExtPos' feature
+[Line 5706 Sent 15_ptm_532745-38]: [L3 WARNING pron-det-without-prontype] The word 'מדי' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 12286 Sent 15_ptm_532876-10]: [L3 WARNING fixed-without-extpos] Fixed expression 'יותר מ' does not have the 'ExtPos' feature
+[Line 12765 Sent 15_ptm_532876-20]: [L3 WARNING fixed-without-extpos] Fixed expression 'חד גיסא' does not have the 'ExtPos' feature
+[Line 12772 Sent 15_ptm_532876-20]: [L3 WARNING fixed-without-extpos] Fixed expression 'אידך גיסא' does not have the 'ExtPos' feature
+[Line 15190 Sent 15_ptv_491102-7]: [L3 WARNING fixed-without-extpos] Fixed expression 'הרבה מאד' does not have the 'ExtPos' feature
+[Line 28310 Sent 19_ptm_230674-183]: [L3 WARNING fixed-without-extpos] Fixed expression 'כל כך' does not have the 'ExtPos' feature
+[Line 28315 Sent 19_ptm_230674-183]: [L3 WARNING fixed-without-extpos] Fixed expression 'כל כך' does not have the 'ExtPos' feature
+[Line 35577 Sent 19_ptv_229664-22]: [L3 WARNING fixed-without-extpos] Fixed expression 'הרבה מאוד' does not have the 'ExtPos' feature
+[Line 35871 Sent 19_ptv_229664-28]: [L3 WARNING fixed-gap] Gaps in fixed expression [42, 44] 'לבד * מ'
+...suppressing further messages regarding WARNING/SYNTAX
+Warnings: 275
 *** PASSED ***
 Validity: 1
 (weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
