@@ -5293,7 +5293,7 @@
 36	נוגע	נוגע	NOUN	NOUN	Gender=Masc|Number=Sing	28	nmod	_	_
 37-38	לוועדת	_	_	_	_	_	_	_	_
 37	ל	ל	ADP	ADP	_	38	case	_	_
-38	וועדת	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	36	obl	_	Entity=(ORG
+38	וועדת	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	36	nmod	_	Entity=(ORG
 39-40	השרים	_	_	_	_	_	_	_	_
 39	ה	ה	DET	DET	Definite=Def|PronType=Art	40	det	_	_
 40	שרים	שר	NOUN	NOUN	Gender=Masc|Number=Plur	38	compound	_	_

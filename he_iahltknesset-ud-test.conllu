@@ -7686,7 +7686,7 @@
 7	כנסת	כנסת	PROPN	PROPN	_	1	conj	_	Entity=(ORG)
 8	נכבדה	נכבד	ADJ	ADJ	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
 9	,	,	PUNCT	PUNCT	_	10	punct	_	_
-10	רגע	רגע	NOUN	NOUN	Gender=Masc|Number=Sing	12	obl:unmarked	_	TemporalNPAdjunct=Yes
+10	רגע	רגע	NOUN	NOUN	Gender=Masc|Number=Sing	12	nmod:unmarked	_	TemporalNPAdjunct=Yes
 11	לפני	לפני	ADP	ADP	_	12	case	_	_
 12	יציאת	יציאה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	19	obl	_	_
 13	כנסת	כנסת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	12	compound	_	Entity=(ORG)
@@ -9544,7 +9544,7 @@
 42	הידרדרות	הידרדרות	NOUN	NOUN	Gender=Fem|Number=Sing	32	nmod	_	_
 43-44	בדירוגים	_	_	_	_	_	_	_	_
 43	ב	ב	ADP	ADP	Definite=Def|PronType=Art	44	case	_	_
-44	דירוגים	דירוג	NOUN	NOUN	Gender=Masc|Number=Plur	42	obl	_	_
+44	דירוגים	דירוג	NOUN	NOUN	Gender=Masc|Number=Plur	42	nmod	_	_
 45	של	של	ADP	ADP	Case=Gen	47	case	_	_
 46-47	האוניברסיטאות	_	_	_	_	_	_	_	SpaceAfter=No
 46	ה	ה	DET	DET	Definite=Def|PronType=Art	47	det	_	_
