@@ -129,11 +129,11 @@
     <dep name="nmod">1544</dep>
     <dep name="nmod:poss">1611</dep>
     <dep name="nmod:unmarked">46</dep>
-    <dep name="nsubj">4522</dep>
+    <dep name="nsubj">4537</dep>
     <dep name="nsubj:outer">74</dep>
     <dep name="nsubj:pass">177</dep>
     <dep name="nummod">415</dep>
-    <dep name="obj">2024</dep>
+    <dep name="obj">2009</dep>
     <dep name="obl">4418</dep>
     <dep name="obl:unmarked">170</dep>
     <dep name="orphan">13</dep>
